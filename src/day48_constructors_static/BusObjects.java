@@ -9,6 +9,14 @@ public class BusObjects {
 
         System.out.println(bus.toString());
 
+        Bus metroBus = new Bus();
+        metroBus.driver = new Driver("Kukaracha");
+        metroBus.engine = new Engine(15);
+
+        System.out.println(metroBus.toString());
+
+        System.out.println(metroBus.driver.getName());
+
 
     }
 }
