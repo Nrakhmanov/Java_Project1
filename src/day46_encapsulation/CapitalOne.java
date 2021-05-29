@@ -6,7 +6,7 @@ public class CapitalOne {
         CheckingAccount account = new CheckingAccount();
 
         account.setAccountHolder("Satoshi Nakamoto");
-        account.setAccountNumber(123456789);
+        account.setAccountNumber(123456789L);
         account.setBalance(1000000);
 
         System.out.println(account);
