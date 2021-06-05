@@ -14,8 +14,18 @@ public class StaticBlockDemo {
         carModels.addAll(Arrays.asList("BMW", "MB", "Lexus", "Acura"));
     }
 
+    { // initializer block -> runs each time object is created, before constructor
+        System.out.println("initializer block");
+
+    }
+
     public StaticBlockDemo() {
         System.out.println("Constructor method");
         num+=5;
+    }
+
+    public StaticBlockDemo(int value) {
+        System.out.println("Overloaded constructor - value = " + value);
+        num += value;
     }
 }

@@ -6,5 +6,7 @@ public class StaticBlockTest {
         StaticBlockDemo st2 = new StaticBlockDemo();// runs only constructor. constructor runs each time when we create new object
         StaticBlockDemo st3 = new StaticBlockDemo(); // runs only constructor.
         System.out.println(StaticBlockDemo.num);
+        StaticBlockDemo st4 = new StaticBlockDemo(50);
+        System.out.println(StaticBlockDemo.num);
     }
 }
