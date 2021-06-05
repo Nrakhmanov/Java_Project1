@@ -10,6 +10,7 @@ public class AudioBook extends Book {
         System.out.println("length = " + length);
         System.out.println("author = " + author);
         System.out.println("title = " + title);
+        System.out.println("price = " + price);
 
     }
 }

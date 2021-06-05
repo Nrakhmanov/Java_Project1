@@ -6,7 +6,7 @@ public class EBook extends Book{
     int pages;
 
     public void readbook() {
-        System.out.println("I am reading EBook : ");
+        System.out.println("Reading EBook : ");
         System.out.println("Title = " + title);
         System.out.println("Author = " + author);
         System.out.println("Size of the EBook = " + size);
