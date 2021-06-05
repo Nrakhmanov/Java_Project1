@@ -2,6 +2,7 @@ package day50_inheritance;
 /*
 child calls
 derived class
+sub class
  */
 
 public class Teacher extends Person{
