@@ -5,8 +5,14 @@ public class Employee {
 
     public double calculateSalary(double hourlyRate) {
 
-        return hourlyRate * 52 * 40 * 1.1;
+        return hourlyRate * 50*40 * 1.1;
 
     }
 
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "jobTitle='" + jobTitle + '\'' +
+                '}';
+    }
 }
