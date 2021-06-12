@@ -17,4 +17,9 @@ public class Discord extends MobileApp {
         super.useTheApp(minutes);
         chat("myself");
     }
+
+    public void printInfo( ){
+        System.out.println("App name = " + getName());
+        System.out.println("App version = " + getVersion());
+    }
 }
