@@ -3,25 +3,35 @@ package day52_inheritance.discordusers;
 
 public class User {
 
-    private int role;
+    private String role;
     private String name;
     private int id;
 
+    public User() {
+        System.out.println("User class constructor");
+    }
+
+    public User(String role, String name, int id) {
+        System.out.println("User class 3 args constructor");
+        this.role = role;
+        this.name = name;
+        this.id = id;
+    }
 
     @Override
     public String toString() {
         return "User{" +
-                "role=" + role +
+                "role=" + role + '\'' +
                 ", name='" + name + '\'' +
                 ", userID=" + id +
                 '}';
     }
 
-    public int getRole() {
+    public String getRole() {
         return role;
     }
 
-    public void setRole(int role) {
+    public void setRole(String role) {
         this.role = role;
     }
 
