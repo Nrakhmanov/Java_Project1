@@ -8,6 +8,9 @@ public class Instagram extends MobileApp{
 
     @Override
     public void useTheApp(int minutes) {
+        System.out.println("Using instagram app features");
+        postPhoto();
         super.useTheApp(minutes);
+
     }
 }

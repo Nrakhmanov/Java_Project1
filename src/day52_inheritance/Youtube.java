@@ -7,6 +7,7 @@ public class Youtube extends MobileApp{
 
     @Override
     public void useTheApp(int minutes) {
+        System.out.println("Watching funny videos");
         super.useTheApp(minutes);
     }
 }
