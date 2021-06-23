@@ -1,6 +1,10 @@
-package day56_abstraction;
+package day56_abstraction.driveable;
 
-public class Tesla extends Transportation implements SelfDrivable, Greeting{
+import day56_abstraction.driveable.SelfDrivable;
+import day56_abstraction.driveable.Transportation;
+import day56_abstraction.greeting.Greeting;
+
+public class Tesla extends Transportation implements SelfDrivable, Greeting {
 
     @Override
     public void transportPeople() {
