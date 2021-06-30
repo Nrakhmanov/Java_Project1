@@ -5,4 +5,14 @@ public class Etsy extends OnlineShop implements HandMade {
     public void makeAndSellFromHome() {
 
     }
+
+    @Override
+    public void buy() {
+
+    }
+
+    @Override
+    public void sell() {
+
+    }
 }
