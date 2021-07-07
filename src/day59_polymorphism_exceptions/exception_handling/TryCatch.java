@@ -18,7 +18,7 @@ public class TryCatch {
             System.out.println(nums[0]);
             System.out.println(nums[1]);
             System.out.println(nums[2]);
-            System.out.println(nums[3]);
+            System.out.println(nums[3]);// RunTimeError
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("ArrayIndexOutOfBoundsException is caught and handled");
         }
